@@ -150,7 +150,9 @@ footer a , .fa-brands {
 footer a :hover{
     color:rgba(177, 62, 9, 0.758);
 }
-
+footer p{
+    color: white;
+}
 /* <!-- seccion nosotros --> */
 
 
@@ -566,7 +568,15 @@ padding: 10px 0px 10px 0px;
     background-attachment: scroll;
      background-repeat: no-repeat;
      height: 400px;
-     opacity: .6;
+     opacity: .8;
+}
+.data button{
+    padding: 4% 8% 4% 8%;
+    border: solid rgb(50, 49, 32);
+}
+.data button:hover{
+    background-color: grey;
+    color: white;
 }
 
 
